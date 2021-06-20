@@ -13,7 +13,7 @@ ax = fig.add_subplot(111,projection='3d')
 
 #defining planes:  n.T * x = c 
 n1 = np.array([3,5,-6]).reshape((3,1))
-c1 = 7
+c1 = 58.56
 
 #corresponding z for planes
 z1 = (c1-n1[0]*xx-n1[1]*yy)/(n1[2])
