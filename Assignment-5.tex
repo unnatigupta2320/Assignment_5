@@ -148,13 +148,24 @@ Find the equation of the plane which is at a distance of 7 units from the origin
 \section{Solution}
 Given that,
 \begin{itemize}
-\item The distance c= 7 units and,
 \item The normal vector to the plane is $\vec{n} = \myvec{3\\5\\-6}$.
+\item The distance from origin d=7 units,
+\begin{align}
+    d&=\frac{\abs{c}}{\norm{\vec{n}}}
+    \\
+    c&=d\times{\norm{\vec{n}}}
+    \\
+    c&= 7\times \sqrt{3^2+5^2+(-6)^2}
+    \\
+    c&= 7\times \sqrt{70}
+    \\
+    c&=58.56
+\end{align}
     \item  So,Equation of the plane is given by:-
 \begin{align}
 \vec{n}^T\vec{x} =c
 \\
-\myvec{3 & 5 & -6}{\vec{x}} = 7
+\myvec{3 & 5 & -6}{\vec{x}} = 58.56
 \end{align}
 \item Plot of the plane :-
 \numberwithin{figure}{section}
